@@ -12,7 +12,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            <div style={{ backgroundImage: `url(${mainBg})`, height: '100vh', backgroundSize: 'cover', }}>
+            <div className='h-[1600px] lg:h-[100vh]' style={{ backgroundImage: `url(${mainBg})`, backgroundSize: 'cover', }}>
 
                 {/* nav  */}
                 <div className="navbar container mx-auto p-6">
@@ -26,7 +26,7 @@ const Home = () => {
                                 <li><a>Item 3</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl"><img src={logo} alt="" /></a>
+                        <a className="btn btn-ghost text-xl hidden lg:block"><img src={logo} alt="" /></a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-white">
