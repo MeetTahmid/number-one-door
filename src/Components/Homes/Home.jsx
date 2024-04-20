@@ -1,50 +1,19 @@
-import logo from '../../assets/logo.png'
+
 import mainBg from '../../assets/mainbg.png';
 import door1 from '../../assets/home-door/1.png'
 import door2 from '../../assets/home-door/2.png'
 import door3 from '../../assets/home-door/3.png'
 import door4 from '../../assets/home-door/4.png'
-import facebook from '../../assets/navico/facebook.png'
-import whatsapp from '../../assets/navico/whatsapp.png'
-import gmail from '../../assets/navico/gmail.png'
+
 import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <div className='h-[1600px] lg:h-[100vh]' style={{ backgroundImage: `url(${mainBg})`, backgroundSize: 'cover', }}>
-
-                {/* nav  */}
-                <div className="navbar container mx-auto p-6">
-                    <div className="navbar-start">
-                        <div className="dropdown">
-                            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" style={{ fill: 'white' }} viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                            </div>
-                            <ul tabIndex={0} className="text-white menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-700 rounded-box w-52">
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 3</a></li>
-                            </ul>
-                        </div>
-                        <a className="btn btn-ghost text-xl hidden lg:block"><img src={logo} alt="" /></a>
-                    </div>
-                    <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 text-white">
-                            <li><a>কাঠের দরজা</a></li>
-                            <li><a>কাচের দরজা</a></li>
-                            <li><a>প্লাস্টিক দরজা</a></li>
-                        </ul>
-                    </div>
-                    <div className="navbar-end flex space-x-4">
-                        <a href='https://www.facebook.com/MeetTahmid' target='blank'><img src={facebook} alt="" /></a>
-                        <a href='#'><img src={whatsapp} alt="" /></a>
-                        <a href='#'><img src={gmail} alt="" /></a>
-                    </div>
-                </div>
-                {/* nav  */}
+            <div className='h-[1600px] lg:h-[100vh] pt-28' style={{ backgroundImage: `url(${mainBg})`, backgroundSize: 'cover', }}>
 
                 {/* home  */}
-                <div className="container mx-auto mt-40">
+                <div className="container mx-auto ">
                     <div className="flex justify-between items-center lg:flex-row flex-col">
                         <div>
                             <h1 className="text-6xl text-white font-bold leading-relaxed">সুন্দর এবং টেকসই <br /> দরজা</h1>
