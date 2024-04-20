@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Wood Door",
+        "image": "https://fakeurl.com/image1.png"
+    },
+    {
+        "id": 2,
+        "name": "Wood Door",
+        "image": "https://fakeurl.com/image2.png"
+    },
+    {
+        "id": 3,
+        "name": "Wood Door",
+        "image": "https://fakeurl.com/image3.png"
+    }
+]
