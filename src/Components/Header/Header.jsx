@@ -3,6 +3,7 @@ import facebook from '../../assets/navico/facebook.png'
 import whatsapp from '../../assets/navico/whatsapp.png'
 import gmail from '../../assets/navico/gmail.png'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -27,6 +28,7 @@ const Header = () => {
                         <li><a href='#'>কাচের দরজা</a></li>
                         <li><a href='#'>প্লাস্টিক দরজা</a></li>
                         <li><a href='#'>মালিক এবং শ্রমিকরা</a></li>
+                        <Link to></Link>
                     </ul>
                 </div>
                 <div className="navbar-end flex space-x-4">

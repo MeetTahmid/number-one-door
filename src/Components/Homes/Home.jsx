@@ -5,6 +5,7 @@ import door2 from '../../assets/home-door/2.png'
 import door3 from '../../assets/home-door/3.png'
 import door4 from '../../assets/home-door/4.png'
 
+
 import './Home.css'
 
 const Home = () => {
