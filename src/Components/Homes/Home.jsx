@@ -47,7 +47,7 @@ const Home = () => {
                 <div className="container mx-auto mt-40">
                     <div className="flex justify-between items-center lg:flex-row flex-col">
                         <div>
-                            {/* <h1 className="text-6xl text-white font-bold leading-relaxed">সুন্দর এবং টেকসই <br /> দরজা</h1> */}
+                            <h1 className="text-6xl text-white font-bold leading-relaxed">সুন্দর এবং টেকসই <br /> দরজা</h1>
                             <p className="mb-6 text-white my-4">আমাদের দরজা প্রদর্শনী সাইটে  স্বাগতম! আমরা প্রযুক্তিগত সৃজনশীলতা <br /> এবং সুন্দরতা একত্রে সমন্বয় করে আপনার বাড়ি, অফিস, প্রতিষ্ঠান ইত্যাদি এর <br /> জন্য একটি সামর্থ্যপূর্ণ নকশা দরজা তৈরি করতে আমাদের বিশেষজ্ঞ দল সক্ষম, <br /> যারা সারাদেশ ব্যাপী মার্কেটিং করে থাকে</p>
                             <button className="btn px-6 border-none hover:bg-[#e04f4d] hover:text-white bg-[#fff]">Visit Doors</button>
                         </div>

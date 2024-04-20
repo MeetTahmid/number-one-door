@@ -1,4 +1,5 @@
 import Home from "./Components/Homes/Home"
+import Mains from "./Components/Mains/Mains"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <div>
         <Home></Home>
+        <Mains></Mains>
       </div>
     </>
   )
