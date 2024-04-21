@@ -12,7 +12,7 @@ const Mains = () => {
 
     return (
         <div className="px-7 lg:px-36">
-            <h1 className="mt-16 text-2xl font-bold text-center mb-5"><span className="border-b-2 p-2 border-black">কাঠের দরজা</span></h1>
+            <h1 className="mt-16 text-2xl font-bold mb-5 bg-slate-800 p-4 text-white"><span className="">কাঠের দরজা</span></h1>
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
 
                 {

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carou = () => {
     return (
-        <div className="carousel w-full mt-6">
+        <div className="carousel w-full mt-6 mb-24">
             <div id="slide1" className="carousel-item relative w-full">
                 <img src="https://i.ibb.co/t2fN3ck/1.jpg" className="w-full h-auto" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
