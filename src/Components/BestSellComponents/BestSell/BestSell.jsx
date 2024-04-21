@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
+
 const BestSell = ({ sell }) => {
     const { name, image } = sell;
     return (
-        <div className='mt-8 mb-12 w-full rounded-lg shadow-xl hover:translate-y-4 transition-all duration-700'>
+
+        <div className='mt-8 mb-12 w-auto mx-5 rounded-lg shadow-xl hover:translate-y-4 transition-all duration-700'>
             <img className='w-[800px]' src={image} alt="" />
             <div className='py-6 px-5 '>
                 <h3 className='font-bold mb-3'>{name}</h3>
