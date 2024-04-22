@@ -10,7 +10,7 @@ const responsive = {
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 4
+        items: 6
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -34,7 +34,7 @@ const BestSells = () => {
     return (
         <div className="px-7 lg:px-36">
             <h1 className="mt-16 text-2xl font-bold"><span className="">বেস্ট সেল</span></h1>
-            <Carousel autoPlay autoPlaySpeed={2000} responsive={responsive} >
+            <Carousel responsive={responsive} >
                 {
                     sells.map(sell => <BestSell key={sell.id} sell={sell}></BestSell>)
                 }
