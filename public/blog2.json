@@ -18,5 +18,20 @@
         "id": 4,
         "name": "গ্লাসের দরজা",
         "image": "https://i.ibb.co/XsChsD2/Ark-Design-5-Lite-Tempered-Frosted-Glass-Bypass-Sliding-Closet-Door.webp"
+    },
+    {
+        "id": 5,
+        "name": "Wood Door",
+        "image": "https://i.ibb.co/8mwpqNb/Ark-Design-Double-Sliding-Barn-Door-Herringbone-Style-72in-x-84in.webp"
+    },
+    {
+        "id": 6,
+        "name": "Wood Door",
+        "image": "https://i.ibb.co/XsChsD2/Ark-Design-5-Lite-Tempered-Frosted-Glass-Bypass-Sliding-Closet-Door.webp"
+    },
+    {
+        "id": 7,
+        "name": "Wood Door",
+        "image": "https://i.ibb.co/8mwpqNb/Ark-Design-Double-Sliding-Barn-Door-Herringbone-Style-72in-x-84in.webp"
     }
 ]
