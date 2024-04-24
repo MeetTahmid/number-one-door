@@ -24,7 +24,7 @@ const Header = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a href='#'>কাঠের দরজা</a></li>
+                        <li><a href='#'>কাঠের</a></li>
                         <li><a href='#'>কাচের দরজা</a></li>
                         <li><a href='#'>প্লাস্টিক দরজা</a></li>
                         <li><a href='#'>মালিক এবং শ্রমিকরা</a></li>
